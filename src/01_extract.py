@@ -10,7 +10,7 @@ load_dotenv()
 TOKEN = os.getenv("BANXICO_TOKEN")
 
 SERIE = "SF43718"
-URL = f"https://www.banxico.org.mx/SieAPIRest/service/v1/series/{SERIE}/datos/oportuno"
+URL = f"https://www.banxico.org.mx/SieAPIRest/service/v1/series/SF43718/datos/2020-01-01/2026-09-03"
 
 CARPETA_RAW = Path(__file__).parent.parent / "data" / "raw"
 
